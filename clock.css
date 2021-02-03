@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:  #8E2DE2;
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); 
+    font-family: 'Sriracha', cursive;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    display: flex;
+}
+
+h1{
+ display: inline;
+ color: white;
+}
+
+
+.display{
+    padding: 2rem;
+    background: #FF0099;  
+    background: -webkit-linear-gradient(to right, #493240, #FF0099);  
+    background: linear-gradient(to right, #493240, #FF0099); 
+    border: 10px solid rgb(7, 248, 27);
+    border-radius: 8px;
+    box-shadow: 1px 1px 20px 7px #1b2f4e;
+    
+}
+
+
+small{
+    color: white;
+}
